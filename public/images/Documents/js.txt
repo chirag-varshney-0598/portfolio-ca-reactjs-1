@@ -1,0 +1,82 @@
+QUES:1 To find a prime number
+
+    const number = parseInt(prompt("Enter a positive number: "));
+    let isPrime = true;
+
+if (number === 1) {
+    console.log("1 is neither prime nor composite number.");
+}
+
+else if (number > 1) {
+
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime) {
+        console.log(`${number} is a prime number`);
+    } else {
+        console.log(`${number} is a not prime number`);
+    }
+}
+
+else {
+    console.log("The number is not a prime number.");
+}
+
+.............................................................................................................
+QUES:2 To merge the array
+
+
+function Merge(arr1, arr2){
+
+    let arr = arr1.concat(arr2);
+    let uniqueArr = [];
+
+    for(let i of arr) {
+        if(uniqueArr.indexOf(i) === -1) {
+            uniqueArr.push(i);
+        }
+    }
+    console.log(uniqueArr);
+}
+
+const array1 = [1, 2, 3];
+const array2 = [2, 3, 5]
+
+Merge(array1, array2);
+
+
+...............................................................................................................
+
+QUES:3 To get a random number form the array
+
+function getRandomItem(arr) {
+
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    const item = arr[randomIndex];
+
+    return item;
+}
+
+const array = [1, 'hello', 5, 8];
+
+const result = getRandomItem(array);
+console.log(result);
+
+.....................................................................................................................
+QUES:4 To remove the element from an array
+
+function func() { 
+    var arr = ["shift", "splice", "filter", "pop"]; 
+   
+    var popped = arr.pop(); 
+    document.write("Removed element: " + popped + "<br>"); 
+    document.write("Remaining elements: " + arr); 
+} 
+func(); 
+}

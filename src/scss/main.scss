@@ -1,0 +1,30 @@
+@import "./base";
+@import "./abc";
+@import "./responsive";
+
+.menuList {
+  background: #341c4a;
+
+  border-radius: 7px;
+
+  li {
+    font-size: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+#simple-popper {
+  z-index: 9999;
+}
+
+input:-webkit-autofill {
+  // -webkit-text-fill-color: yellow !important;
+  -webkit-background-clip: text !important;
+  // -webkit-text-fill-color: transparent !important;
+}
+

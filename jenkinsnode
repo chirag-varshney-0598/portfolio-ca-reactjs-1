@@ -1,0 +1,20 @@
+pipeline {
+     agent {
+         label 'mean2'
+     }
+     stages {
+        stage("Build") {
+            steps {
+                sh "npm i"
+                sh "CI=false npm run build"
+                sh "cp /home/administrator/.htaccess build/"
+            }
+        }
+        stage("Deploy") {
+            steps {
+                sh "sudo pm2 restart 12thkhiladireact-1963"
+                                
+            }
+        }
+    }
+}

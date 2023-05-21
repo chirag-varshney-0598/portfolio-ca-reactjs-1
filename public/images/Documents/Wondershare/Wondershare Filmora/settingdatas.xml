@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SettingDatas>
+    <ExportSetting>
+        <ExportLocal>
+            <LocalFilePath>D:/Himanshu/videos/exported</LocalFilePath>
+            <bShowMessageBox>1</bShowMessageBox>
+        </ExportLocal>
+        <UploaderDataYouTube>
+            <UploaderLogined>0</UploaderLogined>
+            <UploaderFilePath></UploaderFilePath>
+            <UploaderTitle></UploaderTitle>
+            <UploadDesc></UploadDesc>
+            <UploadTags></UploadTags>
+            <UploadCateGory></UploadCateGory>
+            <UploadCateGorys></UploadCateGorys>
+            <UploaderPrivacy></UploaderPrivacy>
+            <UploaderThumbnailPath></UploaderThumbnailPath>
+            <UploaderAccessToken></UploaderAccessToken>
+            <UploaderUserName></UploaderUserName>
+            <UploaderApiKey></UploaderApiKey>
+            <UploaderApiSecret></UploaderApiSecret>
+        </UploaderDataYouTube>
+        <UploaderDataFaceBook>
+            <UploaderLogined>0</UploaderLogined>
+            <UploaderFilePath></UploaderFilePath>
+            <UploaderTitle></UploaderTitle>
+            <UploadDesc></UploadDesc>
+            <UploadTags></UploadTags>
+            <UploadCateGory></UploadCateGory>
+            <UploadCateGorys></UploadCateGorys>
+            <UploaderPrivacy></UploaderPrivacy>
+            <UploaderThumbnailPath></UploaderThumbnailPath>
+            <UploaderAccessToken></UploaderAccessToken>
+            <UploaderUserName></UploaderUserName>
+            <UploaderApiKey></UploaderApiKey>
+            <UploaderApiSecret></UploaderApiSecret>
+        </UploaderDataFaceBook>
+        <UploaderDataVimeo>
+            <UploaderLogined>0</UploaderLogined>
+            <UploaderFilePath></UploaderFilePath>
+            <UploaderTitle></UploaderTitle>
+            <UploadDesc></UploadDesc>
+            <UploadTags></UploadTags>
+            <UploadCateGory></UploadCateGory>
+            <UploadCateGorys></UploadCateGorys>
+            <UploaderPrivacy></UploaderPrivacy>
+            <UploaderThumbnailPath></UploaderThumbnailPath>
+            <UploaderAccessToken></UploaderAccessToken>
+            <UploaderUserName></UploaderUserName>
+            <UploaderApiKey></UploaderApiKey>
+            <UploaderApiSecret></UploaderApiSecret>
+        </UploaderDataVimeo>
+        <DVDSettingData>
+            <DVDDirPath>C:/Users/ckvar/OneDrive/Documents/Wondershare/Wondershare Filmora/Output</DVDDirPath>
+        </DVDSettingData>
+        <DownloadDataFacebook>
+            <DownLoaderLogin>0</DownLoaderLogin>
+            <DownLoaderFilePath>C:/Users/ckvar/OneDrive/Documents/Wondershare/Wondershare Filmora/User Media/Downloaded Media</DownLoaderFilePath>
+            <DownLoaderAccessToken></DownLoaderAccessToken>
+            <DownLoaderUserName></DownLoaderUserName>
+            <DownLoaderApiKey></DownLoaderApiKey>
+            <DownLoaderApiSecret></DownLoaderApiSecret>
+        </DownloadDataFacebook>
+        <DownloadDataFlickr>
+            <DownLoaderLogin>0</DownLoaderLogin>
+            <DownLoaderFilePath>C:/Users/ckvar/OneDrive/Documents/Wondershare/Wondershare Filmora/User Media/Downloaded Media</DownLoaderFilePath>
+            <DownLoaderAccessToken></DownLoaderAccessToken>
+            <DownLoaderUserName></DownLoaderUserName>
+            <DownLoaderApiKey></DownLoaderApiKey>
+            <DownLoaderApiSecret></DownLoaderApiSecret>
+        </DownloadDataFlickr>
+        <DownloadDataInstagram>
+            <DownLoaderLogin>0</DownLoaderLogin>
+            <DownLoaderFilePath>C:/Users/ckvar/OneDrive/Documents/Wondershare/Wondershare Filmora/User Media/Downloaded Media</DownLoaderFilePath>
+            <DownLoaderAccessToken></DownLoaderAccessToken>
+            <DownLoaderUserName></DownLoaderUserName>
+            <DownLoaderApiKey></DownLoaderApiKey>
+            <DownLoaderApiSecret></DownLoaderApiSecret>
+        </DownloadDataInstagram>
+    </ExportSetting>
+    <GpuAcceleration>0</GpuAcceleration>
+    <ImportDevicePath>C:/Users/ckvar/OneDrive/Documents/Wondershare/Wondershare Filmora/User Media/Device Import</ImportDevicePath>
+</SettingDatas>

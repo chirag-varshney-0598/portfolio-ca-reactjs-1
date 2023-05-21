@@ -1,0 +1,415 @@
+@font-face {
+  font-family: "IBM Plex Serif", serif;
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1080">Text with applied</p> */
+.fontsforweb_fontid_1080 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.displayStart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.displaySpacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displaySpacecenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.displayEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.slick-next {
+  /* right: 10px; */
+  left: auto;
+  top: 50%;
+}
+
+.slick-prev {
+  /* right: 45px; */
+  top: 50%;
+  left: 0;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev {
+  left: -52px;
+}
+
+.slick-prev:before {
+  content: "‹";
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #fff;
+}
+
+.slick-next,
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  top: 60%;
+  width: 40px;
+  height: 40px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: 0;
+  background: 0 0;
+  background: #e73725;
+  border: 3px solid #660000;
+  display: flex;
+  border-radius: 50%;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 25px;
+  /* line-height: 1; */
+  /* opacity: 0.75; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+  outline: 0;
+  background: #e73725;
+  border: 3px solid #660000;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 40px;
+  /* line-height: 1; */
+  opacity: 1 !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -17px;
+}
+
+.socialEndEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIconBoxDrawbox {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  background: #009b9d !important;
+  margin-top: 9px !important;
+  align-items: center !important;
+  border-radius: 50% !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  margin: 0px 0px 0px 7px !important;
+}
+
+.socialIconBox:hover {
+  color: #ffffff !important;
+  background: #009b9d !important;
+}
+
+.socialIconBox {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  background: #ffffff !important;
+  margin-top: 9px !important;
+  align-items: center !important;
+  border-radius: 50% !important;
+  justify-content: center !important;
+  color: #009b9d !important;
+  font-size: 16px !important;
+  margin: 0px 0px 0px 7px !important;
+}
+
+.socialIconBox:hover {
+  color: #e73725 !important;
+  background: #ffffff !important;
+}
+
+.closeButton {
+  top: -42px !important;
+  color: #fff !important;
+  right: -9px !important;
+  position: absolute !important;
+}
+
+.MuiBackdrop-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: -1;
+  position: fixed;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.searchBtn {
+  color: #fff !important;
+  right: 0 !important;
+  height: 33px !important;
+  /* margin: 3px !important; */
+  top: 5px;
+  right: 6px !important;
+  position: absolute !important;
+  /* min-width: 100px !important; */
+  background: #e73725 !important;
+  border-radius: 8px !important;
+}
+
+.MuiInputBase-inputTypeSearch {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  /* margin-right: 0px !important; */
+  padding: 6px 6px 7px !important;
+}
+
+.searchdiaogBox {
+  position: absolute;
+  top: 0;
+}
+
+.playButton {
+}
+
+.carousel-dots {
+  margin: 0 auto !important;
+  position: absolute;
+  bottom: 14px;
+
+  li {
+    position: relative;
+    display: inline-block;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 2.5px !important;
+    position: absolute;
+    font-size: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    position: relative !important;
+    border: none !important;
+    z-index: 99;
+    border-radius: 50%;
+  }
+
+  button {
+    width: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+
+    &:before {
+      font-size: 0px !important;
+      content: "" !important;
+      position: absolute !important;
+      left: 0 !important;
+      top: 0 !important;
+      width: 10px !important;
+      height: 10px !important;
+      background: #a6c8ff !important;
+      opacity: 0 !important;
+    }
+  }
+
+  &.slick-active button:before {
+    background: #e73725 !important;
+  }
+}
+
+.carousel-dots li.carousel-dots-active li {
+  background: #e73725 !important;
+}
+
+.carousel-dots li.carousel-dots-active button {
+  background: #e73725 !important;
+  width: 10px !important;
+  height: 10px !important;
+  // padding: 0;
+  border-radius: 50%;
+}
+
+// .carousel-dots li button {
+//   // padding: 2px !important;
+// }
+
+.carousel-dots li .carousel-dots li button:before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #a6c8ff !important;
+  opacity: 0 !important;
+}
+
+// .carousel-dots li.carousel-dots-active button {
+//     background: #E73725 !important;
+//     // width: 30px !important;
+//     // height: 4px !important;
+//     // padding: 0;
+//     // margin: 0;
+
+// }
+
+.scaleImageClass1 {
+  margin: 0;
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+}
+
+.scaleImageClass1 img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  position: relative;
+  // transform: scale(1);
+  // transition: 0.5s;
+}
+
+.slick-slider {
+  margin-bottom: 0px !important;
+}
+
+.dangerouslySetInnerHTML {
+  p {
+    span {
+      font-size: 14px !important;
+    }
+  }
+}
+
+// .stickyad {
+//     position: sticky;
+//     top: 90px;
+// }
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.flexBox {
+  background: #fff;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBox:hover {
+  transform: translateY(-5px);
+}
+
+.flexBox::before {
+  content: " ";
+  position: absolute;
+  /* top: 0px; */
+  width: 240px;
+  height: 200%;
+  animation: animate 10s linear infinite;
+  background: #009b9d;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flexBox::after {
+  content: " ";
+  inset: 2px;
+  background: #fff;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .felxBox {
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+      margin-left: 6px;
+    }
+  }
+}

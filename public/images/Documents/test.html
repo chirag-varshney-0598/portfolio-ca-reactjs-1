@@ -1,0 +1,352 @@
+QUES:1 Create an HTML page to display the following text in the title bar of the browser.
+       “Welcome to the world of computers”
+
+<!DOCTYPE html>
+<html><head>
+<title>Welcome to the world of Computers</title>
+<style type="text/css">
+header {background-color:#E80C30;}
+h1 {color: #ffffff; font-family:Verdana; font-size:24px; text-align:center;}
+</style>
+</head>
+<body>
+<header><h1>Mobilloite technologies</h1></header>
+</body>
+</html>
+.................................................................................................................................
+.
+QUES:2 Explain the use of <BLOCKQUOTE> with an example.
+
+The <blockquote> tag specifies a section that is quoted from another source.
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. 
+The world's leading conservation organization, WWF works in 100 countries and is supported
+by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+..................................................................................................................................
+
+QUES:3 Incorporate the following in a single HTML document. BOLD, ITALICS, SMALL,
+       SUPERSCRIPT, UNDERLINE
+<html>
+
+   <head>
+      <title>Mobilloite Technologies</title>
+   </head>
+	
+   <body>
+      <header><h1><u><b>mobilloite</b></u></h1></header>
+      <p><i><sup>fastest growing company since last few years</sup></i></p>
+   </body>
+	
+</html>
+.................................................................................................................................
+QUES:4 What is the role of the following tags: -
+       1. <strong>
+       2. <b>
+
+1. we use <strong> when the context says that the bold text is more important than the other.
+2. we use <b> if it just should be bold. In this case boldness may be used to catch the readers eye.
+.................................................................................................................................
+
+QUES:5 Display the following Text “India is my country” center aligned on the page
+
+<!DOCTYPE html>
+<html><head>
+<title>India</title>
+<style type="text/css">
+header {background-color:#E80C30;}
+h1 {color: #ffffff; font-family:Verdana; font-size:24px; text-align:center;}
+</style>
+</head>
+<body>
+<header><h1><b>INDIA IS MY COUNTRY</b></h1></header>
+</body>
+</html>
+....................................................................................................................................
+
+QUES:6 How do you display an input field for accepting password from the user.
+
+By using the <input type="password"> which defines a password field.
+....................................................................................................................................
+
+QUES:7 Explain the difference between the ordered list unordered list with examples
+
+Ordered list:
+
+1.It has an order of items which is signified by number, Roman numeral or alphabetical character.
+2.Tag - An ‘ordered list’ starts with the <ol> tag.  
+3.Each list item starts with the <li> tag.
+
+Unordered List:
+
+1.It has no order of items which has a bullet preceding.  
+2.Tag - An ‘unordered list’ starts with the <ul> tag.  
+3.Each list item starts with the <li> tag. 
+......................................................................................................................................
+
+QUES:8 Insert an image in an HTML document and align the text to the right side of the
+image.
+
+<IMG SRC=”building.jpg” ALIGN=”left” /> after implenting this the text will align to the right of the image
+......................................................................................................................................
+
+QUES:9 What is the use of the <a> tag? How would you navigate between multiple pages?
+
+The <a> tag (anchor tag) in HTML is used to create a hyperlink on the webpage. This hyperlink is used to link the webpage to other webpages.
+It’s either used to provide an absolute reference or a relative reference as its “href” value.
+
+<a href = "link"> Link Name </a>
+...........................................................................................................................................
+QUES:10
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta
+	name="viewport"
+	content="width=device-width,
+			initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css"
+		class="css" />
+</head>
+<body>
+	<div class="container">
+	<div class="main-content">
+		<p class="text">Mobilloite Technologies</p>
+	</div>
+		<div class="last-content">
+		<button type="button" class="pay-now-btn">
+		Apply Coupons
+		</button>
+		<button type="button" class="pay-now-btn">
+		Pay with Netbanking
+		</button>
+
+		<!-- <button type="button" class="pay-now-btn">
+		Netbanking options
+		</button> -->
+	</div>
+
+	<div class="card-details">
+		<p>Pay using Credit or Debit card</p>
+
+		<div class="card-number">
+		<label> Card Number </label>
+		<input
+			type="text"
+			class="card-number-field"
+			placeholder="###-###-###"/>
+		</div>
+		<br />
+		<div class="date-number">
+		<label> Expiry Date </label>
+		<input type="text" class="date-number-field"
+				placeholder="DD-MM-YY" />
+		</div>
+
+		<div class="cvv-number">
+		<label> CVV number </label>
+		<input type="text" class="cvv-number-field"
+				placeholder="xxx" />
+		</div>
+		<div class="nameholder-number">
+		<label> Card Holder name </label>
+		<input
+			type="text"
+			class="card-name-field"
+			placeholder="Enter your Name"/>
+		</div>
+		<button type="submit"
+				class="submit-now-btn">
+		submit
+		</button>
+	</div>
+	</div>
+</body>
+</html>
+
+CSS_style
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+.container {
+height: 900px;
+width: 400px;
+background-image: linear-gradient(#1e6b30, #308d46);
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+position: absolute;
+border-bottom-left-radius: 180px;
+border-top-right-radius: 150px;
+}
+
+.main-content {
+height: 235px;
+background-color: #1b9236;
+border-bottom-left-radius: 90px;
+border-bottom-right-radius: 80px;
+border-top: #1e6b30;
+}
+
+.text {
+text-align: center;
+font-size: 300%;
+text-decoration: aliceblue;
+color: aliceblue;
+}
+
+.course {
+color: black;
+font-size: 25px;
+font-weight: bolder;
+}
+
+.centre-content {
+height: 180px;
+margin: -70px 30px 20px;
+color: aliceblue;
+text-align: center;
+font-size: 20px;
+border-radius: 25px;
+padding-top: 0.5px;
+background-image: linear-gradient(#1e6b30, #308d46);
+}
+
+.centre-content-h1 {
+padding-top: 30px;
+padding-bottom: 30px;
+font-weight: normal;
+}
+
+.price {
+font-size: 60px;
+margin-left: 5px;
+bottom: 15px;
+position: relative;
+}
+
+.pay-now-btn {
+cursor: pointer;
+color: #fff;
+height: 50px;
+width: 290px;
+border: none;
+margin: 5px 30px;
+background-color: rgb(71, 177, 61);
+position: relative;
+}
+
+.card-details {
+background: rgb(8, 49, 14);
+color: rgb(225, 223, 233);
+margin: 10px 30px;
+padding: 10px;
+/* border-bottom-left-radius: 80px; */
+}
+
+.card-details p {
+font-size: 15px;
+}
+
+.card-details label {
+font-size: 15px;
+line-height: 35px;
+}
+
+.submit-now-btn {
+cursor: pointer;
+color: #fff;
+height: 30px;
+width: 240px;
+border: none;
+margin: 5px 30px;
+background-color: rgb(71, 177, 61);
+}
+................................................................................................................................................
+QUES:11 Create a table with and without border to see the difference between them (using
+        bootstrap)
+
+BORDERED TABLE:    (.table-bordered)
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+WITHOUT BORDER:  (.table-borderless)
+
+<table class="table table-borderless">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+......................................................................................................................................
+QUES:12 Show the types and uses of positions in css .
+
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+1.static
+2.relative
+3.fixed
+4.absolute
+5.sticky
+.....................................................................................................................................
+QUES:13 Show the uses and difference between display -inline, inline-block, block.
+
+
